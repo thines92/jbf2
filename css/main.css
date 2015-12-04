@@ -1,0 +1,304 @@
+* ,
+*:before ,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html , body {
+  height: auto;
+}
+body {
+  font-family: normal 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.container-fluid {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: -webkit-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* W3C */
+}
+.border {
+  border: 1px ridge #d44b04;
+}
+.navi {
+  position: relative;
+  top: 0;
+  width: inherit;
+  height: 2.3125em;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #d44b04;
+  z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .navi {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 465px) {
+  .navi ul > li {
+    font-size: .75em;
+  }
+}
+.navi li {
+  list-style: none;
+  font-size: 1.25em;
+  color: white;
+  font-weight: 400;
+  padding: 5px;
+  top: 5px;
+  display: inline-block;
+}
+.navi a {
+  color: white;
+}
+.front-page {
+  height: auto;
+  position: relative;
+}
+.header {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+  color: #cf6e40;
+  font-weight: 600;
+  margin-top: 2%;
+  display: block;
+  width: 100%;
+  border-top: .125em solid #d44b04;
+  border-bottom: .125em solid #d44b04;
+  padding: 5px;
+}
+.front-images {
+  margin-top: 8em;
+  width: 100%;
+  display:block;
+  position: relative;
+  margin-left: 12%;
+}
+.front-images div {
+  display: inline-block;
+}
+.jared {
+  width: 35%;
+}
+.jared-front {
+  position: relative;
+  height: auto;
+  width: 100%;
+  border: 10px ridge #d44b04;
+}
+.shabaz {
+  width: 20%;
+}
+.shabaz-front {
+  position: relative;
+  height: auto;
+  width: 100%;
+  border: 5px ridge #d44b04;
+}
+.hat {
+  width: 20%;
+}
+.hat-front {
+  position: relative;
+  height: auto;
+  width: 100%;
+  border: 5px ridge #d44b04;
+}
+@media screen and (min-width: 480px) {
+  .front-images div {
+    display: inline-block;
+    margin: 0;
+  }
+}
+.about-page {
+  height: auto;
+  background: -webkit-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* W3C */
+  position: relative;
+}
+.jared-about {
+  height: auto;
+  width: 20%;
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 40%;
+}
+.about-page p {
+  width: 80%;
+  position: relative;
+  font-size: 1.5em;
+  color: #a25029;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+}
+.project-page {
+  height: auto;
+  background: -webkit-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* W3C */
+  position: relative;
+}
+.image-header {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2.5%;
+}
+.project-images {
+  margin-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-left: 10%;
+}
+.project-page img:nth-child(-n+2) {
+  margin: 0 5%;
+  height: auto;
+  max-height: 200px;
+  min-height: 55px;
+  height: 100%;
+  width: 35%;
+  position: relative;
+  display: inline-block;
+}
+.project-page img:last-child {
+  width: 40%;
+  height: auto;
+  margin-left: 25%;
+  margin-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.left-project-img {
+  height: auto;
+  width: 20%;
+  position: relative;
+}
+.right-project-img {
+  height: auto;
+  width: 20%;
+  position: relative;
+}
+.bottom-project-img {
+  max-height: 200px;
+  width: 20%;
+  position: relative;
+}
+.project-page p {
+  text-align: center;
+  width: 80%;
+  position: relative;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  color: #a25029;
+  font-weight: 600;
+  margin: auto;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+}
+.donate-page {
+  height: auto;
+  background: -webkit-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* W3C */
+  position: relative;
+  width: 100%;
+}
+.donate-page p {
+  position: relative;
+  width: 80%;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  text-align: center;
+  color: #a25029;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.dropdown-list {
+  position: relative;
+  font-size: 1.125;
+  margin-left: 47%;
+  margin-top: 10%;
+}
+.donate-btn {
+  position: relative;
+  height: auto;
+  width: 10%;
+  min-width: 80px;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+.contact-page {
+  height: auto;
+  background: -webkit-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* W3C */
+  position: relative;
+}
+.left-column {
+  position: relative;
+  width: 50%;
+  height: auto;
+  float: left;
+  padding-top: 14em;
+}
+.left-column h3 {
+  position: relative;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+}
+.anna-contact {
+  margin-top: 10%;
+}
+.left-column p {
+  font-size: .875em;
+  text-align: center;
+  padding-top: 2.5%;
+}
+.right-column {
+  position: relative;
+  float: right;
+  width: 40%;
+  height: auto;
+  margin-right: 5%;
+  padding-top: 9em;
+}
+.email-form input , label , textarea {
+  display: block;
+  margin: .3125em 0;
+}
+.email-form input , textarea {
+  width: 100%;
+}
+.email-form textarea {
+  height: 12.5em;
+}
